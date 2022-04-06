@@ -1,0 +1,29 @@
+/******************************************************************************
+
+A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years.
+Ask user for their salary and year of service and print the net bonus amount.
+
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int yos,salary;
+    cout<<"Enter the no. of years you have served for the company and amount of salary you are getting :\n";
+    cin>>yos>>salary;
+    
+    if(yos>5){
+        int newsalary;
+        newsalary=salary+(salary*0.05);
+        cout<<"The company has decided to give bonus amount "<<newsalary;
+    }
+    else{
+        cout<<"Your salary will remain as "<<salary;
+    }
+
+    return 0;
+}
