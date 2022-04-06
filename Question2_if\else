@@ -1,0 +1,36 @@
+/*Take values of length and breadth of a rectangle from user and check if it is square or not.*/
+
+
+#include<iostream>
+
+ using namespace std;
+
+ 
+ 
+int main (int argc, char const *argv[]) {
+
+int l,b;
+cout<<"Enter the value of length of the rectangle\n";
+cin>>l;
+
+cout<<"Enter the value of breadth of the rectangle\n";
+cin>>b;
+
+
+if (l==b)
+{
+    cout<<"It is a square";
+}
+
+else
+{
+    cout<<"It is not a square";
+}
+
+return 0;
+}
+
+
+ 
+ 
+ 
