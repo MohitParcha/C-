@@ -1,0 +1,43 @@
+/******************************************************************************
+Take input of age of 3 people by user and determine oldest and youngest among them.
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+/*int younger;
+int oldest;*/
+
+int main()
+{
+int a,b,c;
+cout<<"Enter age of a person:\n";
+cin>>a;
+cout<<"Enter age of b person:\n";
+cin>>b;
+cout<<"Enter age of c person:\n";
+cin>>c;
+
+if(a>b && a>c){
+    cout<<"a person is older than both b and c\n";
+}
+else if(a<b && a<c){
+    cout<<"a person is younger than both b and c\n";
+}
+else if(b<a && b>c){
+    cout<<"b person is older than both a and c\n";
+}
+else if(b<a && b<c){
+    cout<<"b person is younger than both a and c\n";
+}
+if(c>b && c>a){
+    cout<<"c person is older than both b and a\n";
+}
+else if(c<b && c<a){
+    cout<<"c person is younger than both b and a\n";
+}
+
+    return 0;
+}
+
+
