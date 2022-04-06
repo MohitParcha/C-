@@ -1,0 +1,61 @@
+#include<iostream>
+
+ using namespace std;
+
+ 
+ 
+int 
+main (int argc, char const *argv[]) 
+{
+  
+ 
+int budget;
+  
+ 
+cin >> budget;
+  
+ 
+if (budget <= 2000)
+    
+ 
+    {
+      
+ 
+cout << "You should go with neha\n";
+    
+ 
+}
+  
+ 
+  else if (budget <= 5000)
+    
+ 
+    {
+      
+ 
+cout << "You should go with your friends\n";
+    
+ 
+}
+  
+ 
+  else
+    
+    {
+      
+ 
+cout << "You should go with rashmi\n";
+    
+ 
+}
+  
+ 
+return 0;
+
+ 
+}
+
+
+ 
+ 
+ 
